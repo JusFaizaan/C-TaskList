@@ -22,21 +22,21 @@ Tasks are stored in a **`tasks.tsv`** file in the current directory.
 # Commands
 
 ## Add a few tasks
-./tt add "Write README" -p H -d 2025-08-31
-./tt add "Fix bug #42" -p M
-./tt add "Buy milk" -p L
+- ./tt add "Write README" -p H -d 2025-08-31
+- ./tt add "Fix bug #42" -p M
+- ./tt add "Buy milk" -p L
 
 ## See pending tasks (default sort: due date)
-./tt list
+- ./tt list
 
 ## Mark one done
-./tt done 2
+- ./tt done 2
 
 ## Show everything, sorted by priority
-./tt list --all --sort=priority
+- ./tt list --all --sort=priority
 
 ## Remove a task
-./tt rm 3
+- ./tt rm 3
 
 ## Clear completed tasks (or use --all to remove everything)
-./tt clear --done
+- ./tt clear --done
