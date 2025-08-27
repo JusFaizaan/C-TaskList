@@ -19,24 +19,9 @@ Tasks are stored in a **`tasks.tsv`** file in the current directory.
 - GCC 9+ (GCC 8 may require an extra link flag), Clang 7+, or MSVC 2019+
 
 
-# Commands
-
-## Add a few tasks
-- ./tt add "Write README" -p H -d 2025-08-31
-- ./tt add "Fix bug #42" -p M
-- ./tt add "Buy milk" -p L
-
-## See pending tasks (default sort: due date)
-- ./tt list
-
-## Mark one done
-- ./tt done 2
-
-## Show everything, sorted by priority
-- ./tt list --all --sort=priority
-
-## Remove a task
-- ./tt rm 3
-
-## Clear completed tasks (or use --all to remove everything)
-- ./tt clear --done
+## Commands 
+- Add item to list: ./tt add "Write README" -p H -d 2025-08-31
+- See pending tasks: ./tt list
+- Mark task as done: ./tt done 2
+- Remove task: ./tt rm 3
+- Clear all completed tasks: ./tt clear --done
